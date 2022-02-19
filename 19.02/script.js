@@ -1,5 +1,6 @@
-let name1 = 'Marsel'
+let name1 = 'Привет, %Марсель%!'
 alert(name1)
 
-let name2 = 'Omurakunov'
-alert(name2)
+let age = 'Мне %18% лет!'
+alert(age)
+
