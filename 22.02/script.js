@@ -2,9 +2,9 @@ let firstNum = 1;
 let secondNum = 2;
 let ThirdNum = 3;
 
-alert(num1)
-alert(num2)
-alert(num3)
+alert(firstNum)
+alert(secondNum)
+alert(ThirdNum)
 
 
 let str1 ='Салам, ';
