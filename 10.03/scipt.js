@@ -15,9 +15,20 @@ console.log(ob);*/
 
 //1
 function  min (x,y) {
-    if(x === undefined) x = 5;
-    if(y === undefined) y = 9;
     var z = Math.min(x,y)
     console.log(z)
 }
-min()
+min(56,99)
+
+
+
+/*function  minNum(a,b) {
+    return ( a < b ) ? a : b;
+}
+
+function showNum(x) {
+     console.log(x)
+}
+
+let result = minNum(86, 66);
+showNum(result);*/
