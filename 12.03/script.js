@@ -5,12 +5,7 @@ const mapped = arr.map(el => el * 2);
 console.log(mapped)*/
 
 //2
-let name = "Василий";
+let name = 'Василий';
 
-function getName() {
-    if (name === undefined){
-        name = 'гость'
-    }
-}
-getName()
-console.log('Привет', name)
+let getName = () => (name === undefined || name !== 'Василий' ) ? `Привет, гость` : `Привет, ${name}`;
+console.log(getName());
